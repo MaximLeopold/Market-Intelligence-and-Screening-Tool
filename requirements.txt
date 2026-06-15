@@ -1,0 +1,8 @@
+#Requirements for the MVP
+
+anthropic platform 
+supabase SQL DB 
+feedparser
+httpx
+python-dotenv
+streamlit
