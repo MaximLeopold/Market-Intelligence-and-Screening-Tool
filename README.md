@@ -35,3 +35,19 @@ Structured market intelligence database
 3. New articles are stored in Supabase.
 4. Run `src/enrich.py` to classify and enrich articles using an LLM.
 5. Structured fields can be used for screening, filtering, dashboards, alerts, or reporting.
+
+## Sample Enriched Output
+
+{
+  "event_type": "funding_round",
+  "sentiment": "positive",
+  "urgency": "medium",
+  "companies": ["ExampleCo"],
+  "people": ["Jane Doe - CEO of ExampleCo"],
+  "summary": "ExampleCo announced a new funding round to expand its software platform across Europe.",
+  "relevance_score": 8,
+  "deal_size": "€25m",
+  "investors": ["Example Ventures"],
+  "target_market": "European B2B software customers",
+  "forward_signals": "The company plans to hire additional sales and product staff in Germany and Switzerland."
+}
