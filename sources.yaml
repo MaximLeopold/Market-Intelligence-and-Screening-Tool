@@ -1,0 +1,19 @@
+# Example sources for HR Tech environment monitoring MVP
+# The platform can be adapted to any industry by changing the RSS feeds.
+
+sources:
+  - name: "t3n HR Tech"
+    url: "https://t3n.de/tag/hr-tech/feed"
+    language: "de"
+
+  - name: "Gründerszene"
+    url: "https://www.gruenderszene.de/feed"
+    language: "de"
+
+  - name: "EU Startups HR"
+    url: "https://www.eu-startups.com/category/hr-tech/feed"
+    language: "en"
+
+  - name: "HR Journal"
+    url: "https://www.hrjournal.de/feed"
+    language: "de"
